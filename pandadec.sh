@@ -16,7 +16,7 @@ set -euf -o pipefail
 #   None
 #######################################
 print_usage() {
-    echo "Usage: $0 encrypt <plaintextFile> [outputDir]" >&2
+  
     echo "       $0 decrypt <encryptedFile> <outputFile>" >&2
 }
 
