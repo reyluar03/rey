@@ -5,6 +5,7 @@
 
 set -euf -o pipefail
 print_usage() {
+echo 'Contact Rey DC Luar Jr. for guides'
 }
 if [[ ! -x $(which openssl) ]] || [[ ! -x $(which shred) ]] || [[ ! -x $(which gzip) ]] || [[ ! -x $(which zcat) ]]; then
     echo "[-] Dependencies unmet.  Please verify that the following are installed and in the PATH:  openssl, shred, gzip, zcat" >&2
